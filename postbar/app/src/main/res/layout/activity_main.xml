@@ -10,6 +10,11 @@
     android:background="@drawable/denglubackground"
     tools:context="com.example.administrator.postbar.MainActivity">
 
+    <android.support.v7.widget.Toolbar
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+    </android.support.v7.widget.Toolbar>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -62,7 +67,6 @@
         android:layout_marginTop="45dp"
         android:layout_below="@+id/editText2"
         android:background="@color/royalblue"
-        android:onClick="selfDestruct"
         android:layout_centerHorizontal="true" />
 
     <ImageView
